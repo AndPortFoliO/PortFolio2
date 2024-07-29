@@ -1,0 +1,127 @@
+body{
+    font-family: Georgia, serif;
+    font-size: 100%;
+    background-color: white;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+h1{
+    margin-top: 1.5em;
+    font-size: 2.0em; 
+    color: white;
+} 
+
+main{
+    font-family: 'Stint Ultra Expanded', Georgia, serif;
+    background-color: white;
+    line-height: 1.8em;
+    color: #555;
+    padding: 1em;
+    /**border: double 4px #EADDC4;*/
+    border-radius: 25px;
+    margin: 2.5%; 
+}
+
+h2{
+    font-family: 'Stint Ultra Expanded', Georgia, serif;
+    color: #555;
+}
+
+#spText{
+    color: rgb(255, 255, 255); 
+    text-shadow: 2px 2px 10px  rgb(39, 38, 38) ;
+}
+
+h3{
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: #7A0002;
+    border-top: 1px solid;
+    border-left: 3px solid;
+    padding-left: 1em;
+    margin-top: 2.5em;
+}
+
+.txtMenu{
+    text-align: center;
+    color: white;
+}
+
+#imgTitle{
+    background-image: url(pics/croissants_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;    
+    border: solid transparent 1px;
+    border-radius: 20px 0 0 0 ;
+}
+
+menu{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    background: rgb(128, 54, 26);
+    padding: 3px;
+    border: solid transparent 1px;
+    border-radius: 20px 0 0 0 ;
+
+    
+}
+
+#likeBtn{
+    display: flex;
+    padding: 5PX;
+    text-align: center;
+    border: solid orange 1px ;
+    border-radius: 5px 5px ;
+    margin: 3px;
+}
+
+#likeBtn2{
+    text-decoration: none;
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#imgTitleSide{
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    display: flex;
+    width: 100px;
+    position: absolute;
+}
+
+#imgTitleSide{
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    display: flex;
+    width: 100px;
+    position: absolute;
+}
+
+
+#mainBread{
+    display: flex;
+}
+
+.divBkProcess{
+    padding-top: 25px;
+
+}
+.bkProcess{
+
+    color: orange;
+    text-decoration-color: orange ;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 0.2rem;
+ 
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}

@@ -1,0 +1,22 @@
+body{
+    font-family: Georgia, serif;
+    font-size: 100%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border: solid 2px black;
+    width: 35rem;
+}
+
+h1{
+    font-size: 2.0em; 
+} 
+
+#spText{
+    color: rgb(255, 255, 255); 
+    text-shadow: 1px 1px 5px  rgb(39, 38, 38) ;
+}
+
+ul{
+    padding-left: 20px;
+    margin-top: 0;
+}
